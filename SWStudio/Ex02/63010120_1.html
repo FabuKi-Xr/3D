@@ -17,15 +17,15 @@
 
         .article {
             text-align: center;
-            padding: 5px;
             color: pink;
         }
         .reporter {
             color: cornflowerblue;
+            font-size: 0.75em;
         }
         .reporter img {
-            border :#0101e5 5px solid;
-            width: 17em;
+            border :#0101e5 3px solid;
+            width: 14.75em;
             float: right;
         }
         .reporter time{
@@ -38,34 +38,26 @@
             padding-top: 0vw;
             display: flex;
             flex-direction: row;
-            /* justify-content: space-between ; */
-        }
-        .col1{
-            flex: 1;
-        }
-        .col2{
-            flex: 1;
-            padding-left: 20vw;
+            justify-content: space-between ;
         }
         aside {
-            --size: 0.15em;
+            --size: 0.2em;
             float : right;
             border-top: black var(--size) solid;
             border-bottom: black var(--size) solid;
-            max-width: 25em;
+            max-width: 14em;
             margin-top: -1.5em;
         }
         aside p{
-            padding-top: -15vw;
-            /* margin: ; */
-            font-size: 4em;
-            margin : 2vh 0vh 2vh;
+            /* padding: 0.5em 0vw 3vh 0vw; */
+            font-size: 2.2em;
             font-style: italic;
             font-family: 'Times New Roman', Times, serif;
             /* text-align: center; */
             /* color: rgb(255, 0, 255); */
         }
         .prog progress{
+            clear:right;
             height: 1em;
             -webkit-appearance: none;
         }
@@ -85,13 +77,13 @@
             text-align: center;
             color: rgb(1, 1, 229);
         }
-        form {
+        .luckd {
             width : fit-content;
         }
         body{
-            /* margin: 0px 15vw 0px; */
-            margin : 0;
-            padding: 0;
+            margin : 0vh 25vw 0vh;
+            font-size: 14px;
+            /* font-size: calc(16px + (18-16)*(100vw-1000px)/(1200-1000)); */
         }
     </style>
 </head>

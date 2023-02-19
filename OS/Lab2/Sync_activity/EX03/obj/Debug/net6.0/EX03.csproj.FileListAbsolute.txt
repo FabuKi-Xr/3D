@@ -1,0 +1,15 @@
+D:\coding\github\OS\Lab2\Sync_activity\EX03\bin\Debug\net6.0\EX03.exe
+D:\coding\github\OS\Lab2\Sync_activity\EX03\bin\Debug\net6.0\EX03.deps.json
+D:\coding\github\OS\Lab2\Sync_activity\EX03\bin\Debug\net6.0\EX03.runtimeconfig.json
+D:\coding\github\OS\Lab2\Sync_activity\EX03\bin\Debug\net6.0\EX03.dll
+D:\coding\github\OS\Lab2\Sync_activity\EX03\bin\Debug\net6.0\EX03.pdb
+D:\coding\github\OS\Lab2\Sync_activity\EX03\obj\Debug\net6.0\EX03.csproj.AssemblyReference.cache
+D:\coding\github\OS\Lab2\Sync_activity\EX03\obj\Debug\net6.0\EX03.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding\github\OS\Lab2\Sync_activity\EX03\obj\Debug\net6.0\EX03.AssemblyInfoInputs.cache
+D:\coding\github\OS\Lab2\Sync_activity\EX03\obj\Debug\net6.0\EX03.AssemblyInfo.cs
+D:\coding\github\OS\Lab2\Sync_activity\EX03\obj\Debug\net6.0\EX03.csproj.CoreCompileInputs.cache
+D:\coding\github\OS\Lab2\Sync_activity\EX03\obj\Debug\net6.0\EX03.dll
+D:\coding\github\OS\Lab2\Sync_activity\EX03\obj\Debug\net6.0\refint\EX03.dll
+D:\coding\github\OS\Lab2\Sync_activity\EX03\obj\Debug\net6.0\EX03.pdb
+D:\coding\github\OS\Lab2\Sync_activity\EX03\obj\Debug\net6.0\EX03.genruntimeconfig.cache
+D:\coding\github\OS\Lab2\Sync_activity\EX03\obj\Debug\net6.0\ref\EX03.dll

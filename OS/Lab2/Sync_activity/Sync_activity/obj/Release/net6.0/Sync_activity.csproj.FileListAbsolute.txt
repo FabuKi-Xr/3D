@@ -1,0 +1,15 @@
+D:\coding\github\OS\Lab2\Sync_activity\Sync_activity\bin\Release\net6.0\Sync_activity.exe
+D:\coding\github\OS\Lab2\Sync_activity\Sync_activity\bin\Release\net6.0\Sync_activity.deps.json
+D:\coding\github\OS\Lab2\Sync_activity\Sync_activity\bin\Release\net6.0\Sync_activity.runtimeconfig.json
+D:\coding\github\OS\Lab2\Sync_activity\Sync_activity\bin\Release\net6.0\Sync_activity.dll
+D:\coding\github\OS\Lab2\Sync_activity\Sync_activity\bin\Release\net6.0\Sync_activity.pdb
+D:\coding\github\OS\Lab2\Sync_activity\Sync_activity\obj\Release\net6.0\Sync_activity.csproj.AssemblyReference.cache
+D:\coding\github\OS\Lab2\Sync_activity\Sync_activity\obj\Release\net6.0\Sync_activity.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding\github\OS\Lab2\Sync_activity\Sync_activity\obj\Release\net6.0\Sync_activity.AssemblyInfoInputs.cache
+D:\coding\github\OS\Lab2\Sync_activity\Sync_activity\obj\Release\net6.0\Sync_activity.AssemblyInfo.cs
+D:\coding\github\OS\Lab2\Sync_activity\Sync_activity\obj\Release\net6.0\Sync_activity.csproj.CoreCompileInputs.cache
+D:\coding\github\OS\Lab2\Sync_activity\Sync_activity\obj\Release\net6.0\Sync_activity.dll
+D:\coding\github\OS\Lab2\Sync_activity\Sync_activity\obj\Release\net6.0\refint\Sync_activity.dll
+D:\coding\github\OS\Lab2\Sync_activity\Sync_activity\obj\Release\net6.0\Sync_activity.pdb
+D:\coding\github\OS\Lab2\Sync_activity\Sync_activity\obj\Release\net6.0\Sync_activity.genruntimeconfig.cache
+D:\coding\github\OS\Lab2\Sync_activity\Sync_activity\obj\Release\net6.0\ref\Sync_activity.dll

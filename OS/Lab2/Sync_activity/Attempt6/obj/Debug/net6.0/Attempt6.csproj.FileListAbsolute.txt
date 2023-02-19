@@ -1,0 +1,15 @@
+D:\coding\github\OS\Lab2\Sync_activity\Attempt6\bin\Debug\net6.0\Attempt6.exe
+D:\coding\github\OS\Lab2\Sync_activity\Attempt6\bin\Debug\net6.0\Attempt6.deps.json
+D:\coding\github\OS\Lab2\Sync_activity\Attempt6\bin\Debug\net6.0\Attempt6.runtimeconfig.json
+D:\coding\github\OS\Lab2\Sync_activity\Attempt6\bin\Debug\net6.0\Attempt6.dll
+D:\coding\github\OS\Lab2\Sync_activity\Attempt6\bin\Debug\net6.0\Attempt6.pdb
+D:\coding\github\OS\Lab2\Sync_activity\Attempt6\obj\Debug\net6.0\Attempt6.csproj.AssemblyReference.cache
+D:\coding\github\OS\Lab2\Sync_activity\Attempt6\obj\Debug\net6.0\Attempt6.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding\github\OS\Lab2\Sync_activity\Attempt6\obj\Debug\net6.0\Attempt6.AssemblyInfoInputs.cache
+D:\coding\github\OS\Lab2\Sync_activity\Attempt6\obj\Debug\net6.0\Attempt6.AssemblyInfo.cs
+D:\coding\github\OS\Lab2\Sync_activity\Attempt6\obj\Debug\net6.0\Attempt6.csproj.CoreCompileInputs.cache
+D:\coding\github\OS\Lab2\Sync_activity\Attempt6\obj\Debug\net6.0\Attempt6.dll
+D:\coding\github\OS\Lab2\Sync_activity\Attempt6\obj\Debug\net6.0\refint\Attempt6.dll
+D:\coding\github\OS\Lab2\Sync_activity\Attempt6\obj\Debug\net6.0\Attempt6.pdb
+D:\coding\github\OS\Lab2\Sync_activity\Attempt6\obj\Debug\net6.0\Attempt6.genruntimeconfig.cache
+D:\coding\github\OS\Lab2\Sync_activity\Attempt6\obj\Debug\net6.0\ref\Attempt6.dll

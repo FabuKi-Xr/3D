@@ -1,0 +1,15 @@
+D:\coding\github\OS\Lab2\Sync_activity\Sync\bin\Debug\net6.0\Sync.exe
+D:\coding\github\OS\Lab2\Sync_activity\Sync\bin\Debug\net6.0\Sync.deps.json
+D:\coding\github\OS\Lab2\Sync_activity\Sync\bin\Debug\net6.0\Sync.runtimeconfig.json
+D:\coding\github\OS\Lab2\Sync_activity\Sync\bin\Debug\net6.0\Sync.dll
+D:\coding\github\OS\Lab2\Sync_activity\Sync\bin\Debug\net6.0\Sync.pdb
+D:\coding\github\OS\Lab2\Sync_activity\Sync\obj\Debug\net6.0\Sync.csproj.AssemblyReference.cache
+D:\coding\github\OS\Lab2\Sync_activity\Sync\obj\Debug\net6.0\Sync.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding\github\OS\Lab2\Sync_activity\Sync\obj\Debug\net6.0\Sync.AssemblyInfoInputs.cache
+D:\coding\github\OS\Lab2\Sync_activity\Sync\obj\Debug\net6.0\Sync.AssemblyInfo.cs
+D:\coding\github\OS\Lab2\Sync_activity\Sync\obj\Debug\net6.0\Sync.csproj.CoreCompileInputs.cache
+D:\coding\github\OS\Lab2\Sync_activity\Sync\obj\Debug\net6.0\Sync.dll
+D:\coding\github\OS\Lab2\Sync_activity\Sync\obj\Debug\net6.0\refint\Sync.dll
+D:\coding\github\OS\Lab2\Sync_activity\Sync\obj\Debug\net6.0\Sync.pdb
+D:\coding\github\OS\Lab2\Sync_activity\Sync\obj\Debug\net6.0\Sync.genruntimeconfig.cache
+D:\coding\github\OS\Lab2\Sync_activity\Sync\obj\Debug\net6.0\ref\Sync.dll

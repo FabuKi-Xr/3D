@@ -29,8 +29,7 @@
                 newbutton.innerHTML = "Click me to display Date and Time";
                 newbutton.setAttribute("style", 
                     "color: black; \
-                    font-size: 20px;\
-                    position: absolute;"
+                    font-size: 20px;"
                     );
                 maincontainer.appendChild(newbutton);
             // button click event show update time by second
@@ -58,6 +57,7 @@
                         w.terminate();
                         isDisplay = false;
                         newbutton.style.top = newbutton.style.right = "auto";
+                        newbutton.style.position = "absolute";
                     }
                 });
             // create personal info toggle link

@@ -4,26 +4,18 @@
     <body>
         <div id="maincontainer"></div>
         <script>
-            const display_background = {
-                color1 : "#434247",
-                color2 : "#5c5a66",
-                color3 : "#febc68",
-                color4 : "#fcdb8c",
-                color5 : "#1f9589",
-                color6 : "#41c0b5",
-                color7 : "#faa41b",
-                color8 : "#cc222b",
+            const info = {
+                "Name": "Jaratrawee Srijansuk,ID:63010120",
+                "Subject": "SW Studio",
+                "Semester": "2",
             }
-            const display_color = {
-                color1 : "#A8E10C",
-                color2 : "#8A6FDF",
-                color3 : "#FF5765",
-                color4 : "#FA26A0",
-                color5 : "#01DEE6",
-                color6 : "#3D91E0",
-                color7 : "#44EE77",
-                color8 : "#4DB3E4",
+            const snapshot = {
+                "Fireworks" : "https://www.ontariosciencecentre.ca/media/2098/fireworksheader3.jpg",
+                "Crest" : "https://images.desenio.com/zoom/wb0012-8harrypotter-hogwartscrest50x70.jpg",
+                "Action" : "https://i.pinimg.com/550x/2c/83/cb/2c83cbd4bbb1787891368cae87a0fb49.jpg",
+                "Buffalo" : "https://i.ytimg.com/vi/1fCrqWIQ19A/maxresdefault.jpg",
             }
+            let is_info_display = false;
             var maincontainer = document.getElementById("maincontainer");
             //create header 
                 var newdiv = document.createElement("h1");
@@ -37,53 +29,131 @@
                 newbutton.innerHTML = "Click me to display Date and Time";
                 newbutton.setAttribute("style", 
                     "color: black; \
-                    font-size: 20px;"
+                    font-size: 20px;\
+                    position: absolute;"
                     );
                 maincontainer.appendChild(newbutton);
             // button click event show update time by second
                 var isDisplay = false;
+                var w
                 newbutton.addEventListener("click", function(){
                     if(!isDisplay){
                         isDisplay = true;
-                        newbutton.setAttribute("style", 
-                            "color: black; \
-                            font-size: 20px;\
-                            position: fixed; \
-                            top: 0%; \
-                            right: 0%; \
-                            "
-                        );
-                        
-                        // remove button
-                        // {
-                        //     let button = document.getElementById("displaybutton");
-                        //     button.parentNode.removeChild(newbutton);
-                        // }
-                        
+                        w = new Worker("displayWorker.js");
                         // initial display
                         {
-                            var count = 1;
-                            var d = new Date();
-                            // datediv.innerHTML = d;
-                            newbutton.innerHTML = d
-                            // console.log("Enter!")
-                            // maincontainer.appendChild(datediv);
-                            newbutton.style.backgroundColor = display_background["color"+count.toString()];
-                            newbutton.style.color = display_color["color"+count.toString()];
-                        }
-                        // update display
-                        var myVar = setInterval(()=>{
-                            count++;
-                            if (count > 8){
-                                count = 1;
+                            w.postMessage(isDisplay);
+                            w.onmessage = (event)=>{
+                                newbutton.setAttribute("style",event.data.style);
+                                newbutton.innerHTML = event.data.date;
+                                newbutton.style.backgroundColor = event.data.background;
+                                newbutton.style.color = event.data.color;
+                                
                             }
-                            var d = new Date();
-                            newbutton.innerHTML = d;
-                            newbutton.style.backgroundColor = display_background["color"+count.toString()];
-                            newbutton.style.color = display_color["color"+count.toString()];
-                        }, 1000);
+                            
+                        }
+                        // div_info.style.paddingTop = "64px";
+                    }
+                    else{
+                        w.terminate();
+                        isDisplay = false;
+                        newbutton.style.top = newbutton.style.right = "auto";
                     }
                 });
+            // create personal info toggle link
+                var div_info = document.createElement("div");
+                div_info.setAttribute("id", "div_info");
+                div_info.setAttribute("style", 
+                    "color: black; \
+                    font-size: 20px;\
+                    margin-top: 100px;"
+                    );
+                var button_info = document.createElement("a");
+                button_info.href = "#"
+                button_info.setAttribute("id", "info");
+                button_info.innerHTML = "Personal Info";
+                button_info.setAttribute("style", 
+                    "color: #FFB4DA; \
+                    font-size: 20px;\
+                    "
+                    );
+                button_info.addEventListener("mouseover", function(){
+                    console.log("over")
+                    button_info.style.backgroundColor = "yellow";
+                    button_info.style.color = "blue";
+                } );
+                button_info.addEventListener("mouseout", function(){
+                    console.log("out")
+                    button_info.style.backgroundColor = "transparent";
+                    button_info.style.color = "#FFB4DA";
+                } );
+                button_info.addEventListener("click", function(){
+                    //create list
+                    if (!is_info_display){
+                        is_info_display = true;
+                        var list = document.createElement("ul");
+                        for (const [key, value] of Object.entries(info)) {
+                            var item = document.createElement("li");
+                            if (key == "Name"){
+                                item.innerHTML = value;
+                            }
+                            else{
+                                item.innerHTML = key + ": " + value;
+                            }
+                            list.appendChild(item);
+                        }
+                        // div_snapshot.style.marginTop = "100px";
+                        div_info.appendChild(list);
+                    }
+                    else{
+                        is_info_display = false;
+                        div_info.removeChild(div_info.lastChild);
+                        // div_snapshot.style.marginTop = "100px";
+                    }
+                    
+                } );
+                div_info.appendChild(button_info);
+                maincontainer.appendChild(div_info);
+            // create Snapshot
+                var div_snapshot = document.createElement("div");
+                div_snapshot.setAttribute("id", "div_snapshot");
+                div_snapshot.setAttribute("style", 
+                    "color: black; \
+                    font-size: 20px;"
+                    );
+                var snapshottxt = document.createElement("h1");
+                snapshottxt.innerHTML = "Snapshots";
+                snapshottxt.style.marginBottom = "0px";
+                div_snapshot.appendChild(snapshottxt)
+                maincontainer.appendChild(div_snapshot);
+            // create snapshot list
+                var snapshotlist = document.createElement("ul");
+                snapshotlist.style.marginTop = "0px";
+                for (const [key, value] of Object.entries(snapshot)) {
+                    let item = document.createElement("li");
+                    let link = document.createElement("a")
+                    link.setAttribute("id",key)
+                    link.href = `#div_snapshot`
+                    link.setAttribute("style","color: blue; font-size: 16px;")
+                    link.innerHTML = key;
+                    item.appendChild(link)
+                    snapshotlist.appendChild(item);
+                }
+                div_snapshot.appendChild(snapshotlist);
+            // image box
+                image = new Image(800,150);
+                image.src = "https://sv1.picz.in.th/images/2023/02/19/Lvp9K8.png";
+                div_snapshot.appendChild(image);
+            //handle snapshot event
+                for (const [key, value] of Object.entries(snapshot)) {
+                    element = document.getElementById(key)
+                        element.addEventListener("click", ()=>{
+                        image.src = snapshot[key];
+                        image.style.width = "800px";
+                        image.style.height = "auto";
+                    });
+                }
+                
         </script>
     </body>
 </html>

@@ -29,7 +29,9 @@
                 newbutton.innerHTML = "Click me to display Date and Time";
                 newbutton.setAttribute("style", 
                     "color: black; \
-                    font-size: 20px;"
+                    font-size: 20px;\
+                    position: absolute;\
+                    "
                     );
                 maincontainer.appendChild(newbutton);
             // button click event show update time by second
@@ -78,12 +80,10 @@
                     "
                     );
                 button_info.addEventListener("mouseover", function(){
-                    console.log("over")
                     button_info.style.backgroundColor = "yellow";
                     button_info.style.color = "blue";
                 } );
                 button_info.addEventListener("mouseout", function(){
-                    console.log("out")
                     button_info.style.backgroundColor = "transparent";
                     button_info.style.color = "#FFB4DA";
                 } );

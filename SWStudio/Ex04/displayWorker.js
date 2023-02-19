@@ -29,7 +29,6 @@ const display = () => {
             clearInterval(updateDisplay);
         }
         else {
-            console.log("enter!")
             let dt = new Date();
             updateDisplay = setInterval(() => {
                 count++;

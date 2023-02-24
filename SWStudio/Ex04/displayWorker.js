@@ -23,7 +23,7 @@ const display_color = {
 }
 const display = () => {
     self.onmessage = (event) => {
-        postMessage(post())
+        postMessage(post());
         let display_button_clicked = event.data;
         if (!display_button_clicked) {
             clearInterval(updateDisplay);
@@ -49,7 +49,7 @@ function post() {
             "date": dt,
             "background": display_background["color" + count.toString()],
             "color": display_color["color" + count.toString()],
-            "style": "font-size: 20px;position: fixed;top: 0%;right: 0%; "
+            "style": "font-size: 20px;position: fixed;top: 0%;right: 0%;"
         }
     );
 }

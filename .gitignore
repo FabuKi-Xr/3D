@@ -265,6 +265,7 @@ FakesAssemblies/
 ################### React Ignored Files ###################
 .DS_STORE
 node_modules
+yarn.lock
 scripts/flow/*/.flowconfig
 .flowconfig
 *~

@@ -1,0 +1,13 @@
+body{
+    background-color: #6c6b6a;
+}
+.container{
+    margin: 0% 20% 0% 20%;
+    /* background-color: rgb(255, 255, 255); */
+}
+header{
+    text-align: center;
+    color: #f2d26b;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}

@@ -1,0 +1,30 @@
+{
+    "food1": {
+        "name": "ก๋วยเตี๋ยวไก่",
+        "type": "อาหารคาว",
+        "price": 60,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur viverra tortor ultrices nisi facilisis, eu semper diam malesuada. Sed mollis a ipsum sed dapibus. Vivamus porta vitae nulla posuere varius. Curabitur orci ipsum, finibus nec placerat ac, dictum non magna. Morbi urna sem, tincidunt ac mauris eget, accumsan consequat nibh. Donec consectetur iaculis nunc, scelerisque viverra ligula tempus sit amet. Phasellus pellentesque enim vel velit porttitor vulputate. Morbi purus urna.",
+        "image": "https://img.wongnai.com/p/1920x0/2020/09/28/44612c694be94b63b6352fed24513a4a.jpg"
+    },
+    "food2": {
+        "name": "ข้าวขาหมู",
+        "type": "อาหารคาว",
+        "price": 70,
+        "description": "Lorem ipsum dolor sit amet,consectetur adipiscing elit. Morbi consequat pulvinar felis at sollicitudin. Nunc volutpat odio eu arcu vestibulum congue. Morbi porta, enim id fringilla rutrum, justo risus commodo sem, ac pretium nisl quam ac orci. Aenean a condimentum tortor. Donec eu vestibulum tortor. Sed blandit condimentum mi, eu vestibulum sem sollicitudin convallis. Integer et commodo est, et fermentum felis. Nunc tincidunt nibh ut varius elementum. Nunc a mauris interdum, commodo erat id, rhoncus elit. Fusce pharetra facilisis urna, eget facilisis sapien suscipit quis. Cras vel porta lectus. In hac habitasse platea dictumst. Morbi at lacinia mauris. Donec dictum varius felis. Curabitur ac nunc vestibulum nulla scelerisque ultricies.",
+        "image": "https://www.khaosod.co.th/wpapp/uploads/2022/03/col10p1-16.jpg"
+    },
+    "food3":{
+        "name": "brownie sundae",
+        "type": "อาหารหวาน",
+        "price": 70,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fringilla congue libero, ac dignissim magna hendrerit iaculis. Suspendisse hendrerit purus non felis vestibulum lobortis. Donec non lacus vitae augue tempus ullamcorper. Vestibulum faucibus mauris in diam eleifend, a dignissim lectus consequat. Morbi eget eros mattis, malesuada dolor eu, aliquam magna. Suspendisse vel nisi vitae eros malesuada mattis. Mauris risus est, vehicula a sem non, pretium ullamcorper magna. In pharetra sapien.",
+        "image": "https://www.thereciperebel.com/wp-content/uploads/2022/05/brownie-sundae-TRR-1200-25-of-40.jpg"
+    },
+    "food4":{
+        "name": "blue hawaii",
+        "type": "เครื่องดื่ม",
+        "price": 45,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ligula enim, convallis ut ligula nec, luctus convallis odio. Cras tempor libero non mi imperdiet, a dignissim tellus volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pretium, felis sit amet lacinia rhoncus, nulla felis accumsan felis, commodo lobortis dui lacus sed urna. Sed porta scelerisque iaculis. Nunc ut mauris nec nisi ornare scelerisque. Mauris porta dolor ultrices enim posuere, eu consequat enim sodales. Sed purus risus, rutrum sed ante in, posuere maximus lorem. Aenean tempus suscipit turpis, eget hendrerit tortor venenatis vel. Vestibulum vel condimentum nisi. Integer porta cursus lorem. Sed tempus blandit ante nec feugiat. Suspendisse convallis luctus lacus vehicula ultrices. Ut a metus magna.Integer dapibus euismod libero sit amet laoreet. Pellentesque sit amet egestas neque. Maecenas id turpis consectetur magna facilisis aliquet non vitae augue. Sed gravida ante in magna pretium, in mattis dolor porttitor. Cras.",
+        "image": "https://www.liquor.com/thmb/xAji_Fe0i9aoCnplGKRHFobSCXY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__07__12101312__Blue-Hawaii-720x720-recipe-1c521445b9394786abe8215118baf734.jpg"
+    }
+}

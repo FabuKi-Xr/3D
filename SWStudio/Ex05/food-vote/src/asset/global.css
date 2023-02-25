@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@300&display=swap');
+header .font-config{
+    font-family: 'Kanit', sans-serif !important; 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

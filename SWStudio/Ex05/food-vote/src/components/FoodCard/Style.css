@@ -1,0 +1,48 @@
+.card{
+    margin: auto;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    max-width: 900px;
+    width:100%;
+    background-color: #fcecd3;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-family: 'Athiti', sans-serif !important;
+}
+h2,p{
+    background-color: transparent !important;
+}
+.food-name{
+    font-weight: bold;
+}
+p{
+    padding-top: 1%;
+}
+img{
+    margin: auto; 
+    max-height: 150px;
+    max-width: 200px;
+    height: 100%;
+}
+.wrapper{
+    padding: 3% 0% 0% 2%;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+}
+.vote {
+    padding-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    width:35%;
+}
+.display-vote{
+    margin-left: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(117, 194, 0);
+    color:purple;
+    font-weight: 900;
+    font-size: 32px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
